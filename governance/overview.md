@@ -10,50 +10,54 @@ The goal is simple:
 # **Governance Flow Diagram**
 
 ```markdown
-                           ┌──────────────────────────┐
-                           │        Idea / Need        │
-                           └──────────────┬───────────┘
+                           ┌────────────────────────────┐
+                           │        Idea / Need         │
+                           └──────────────┬─────────────┘
                                           │
                                           ▼
-                     ┌────────────────────────────────────┐
-                     │ Do we need discussion, alignment,   │
-                     │ or exploration before deciding?     │
-                     └──────────────┬──────────────────────┘
+                     ┌──────────────────────────────────────┐
+                     │ Do we need discussion, alignment,    │
+                     │ or exploration before deciding?      │
+                     └──────────────┬───────────────────────┘
                                     │
-                           Yes      │       No
-                                    │
-                                    ▼
-                     ┌──────────────────────────┐
-                     │           RFC             │
-                     │  (Request for Comment)    │
-                     └──────────────┬───────────┘
+                         ├── No  → Proceed directly to ADR
+                         └── Yes
                                     │
                                     ▼
-                     ┌──────────────────────────┐
-                     │   Decision Reached?       │
-                     └──────────────┬───────────┘
-                                    │
-                           Yes      │       No
-                                    │
-                                    ▼
-                     ┌──────────────────────────┐
-                     │           ADR             │
-                     │ (Architecture Decision)   │
-                     └──────────────┬───────────┘
+                     ┌────────────────────────────┐
+                     │            RFC             │
+                     │   (Request for Comment)    │
+                     └──────────────┬─────────────┘
                                     │
                                     ▼
-                     ┌──────────────────────────┐
-                     │ Does this decision        │
-                     │ define ongoing rules?     │
-                     └──────────────┬───────────┘
+                     ┌────────────────────────────┐
+                     │     Decision Reached?      │
+                     └──────────────┬─────────────┘
                                     │
-                           Yes      │       No
+                         ├── No  → Continue discussion
+                         │          or close RFC
+                         └── Yes
                                     │
                                     ▼
-                     ┌──────────────────────────┐
-                     │        Standard           │
-                     │ (Living Engineering Rule) │
-                     └──────────────────────────┘
+                     ┌────────────────────────────┐
+                     │            ADR             │
+                     │  (Architecture Decision)   │
+                     └──────────────┬─────────────┘
+                                    │
+                                    ▼
+                     ┌────────────────────────────┐
+                     │ Does this decision define  │
+                     │ ongoing rules?             │
+                     └──────────────┬─────────────┘
+                                    │
+                         ├── No  → ADR only
+                         └── Yes
+                                    │
+                                    ▼
+                     ┌────────────────────────────┐
+                     │         Standard           │
+                     │ (Living Engineering Rule)  │
+                     └────────────────────────────┘
 ```
 
 ---
