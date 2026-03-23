@@ -16,25 +16,27 @@ If you’re not changing architecture, you probably don’t need an ADR.
 # **Decision Tree**
 
 ```
-                          ┌──────────────────────────────┐
-                          │ Are you making a decision     │
-                          │ that changes architecture?    │
-                          └───────────────┬───────────────┘
-                                          │
-                                 Yes      │       No
-                                          │
-                                          ▼
-                     ┌──────────────────────────────┐
-                     │ Does the decision impact      │
-                     │ multiple teams or domains?    │
-                     └───────────────┬───────────────┘
-                                     │
-                            Yes      │       No
-                                     │
-                                     ▼
-            ┌──────────────────────────────────────────────┐
-            │ You need an ADR. This goes to the ARB.        │
-            └──────────────────────────────────────────────┘
+                          ┌────────────────────────────────┐
+                          │ Are you making a decision      │
+                          │ that changes architecture?     │
+                          └──────────────────┬─────────────┘
+                                             │
+                                 ├── No  → See guidance below
+                                 └── Yes
+                                             │
+                                             ▼
+                     ┌────────────────────────────────┐
+                     │ Does the decision impact       │
+                     │ multiple teams or domains?     │
+                     └──────────────────┬─────────────┘
+                                        │
+                            ├── No  → See guidance below
+                            └── Yes
+                                        │
+                                        ▼
+            ┌──────────────────────────────────────────────────┐
+            │ You need an ADR. This goes to the ARB.           │
+            └──────────────────────────────────────────────────┘
 
 
 If “No” at either step:
