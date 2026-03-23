@@ -117,26 +117,27 @@ The Standard defines the implementation.
 
 ---
 
-# **Repository Structure (Initial Draft)**
+# **Repository Structure**
 
-```
-/
-├── README.md                # This landing page
-├── rfc/                     # Requests for Comment
-│   └── template.md
-├── adr/                     # Architecture Decision Records
-│   └── template.md
-├── standards/               # Engineering Standards (living documents)
-│   ├── cloud/
-│   ├── networking/
-│   ├── identity/
-│   ├── devops/
-│   └── security/
-├── arb/                     # Architecture Review Board workflows & roles
-│   └── workflow.md
-└── standards-committee/     # Standards Committee workflows & roles
-    └── workflow.md
-```
+- [/README.md](README.md) — This landing page  
+- [/adr/](adr) — Architecture Decision Records  
+    - [/adr/template.md](adr/template.md)
+- [/arb/](arb) — Architecture Review Board workflows & roles  
+    - [/arb/workflow.md](arb/workflow.md)
+- [/examples/](examples) — Example governance documents  
+    - [/examples/virtual-app-hosting-example.md](examples/virtual-app-hosting-example.md)
+- [/governance/](governance) — Governance overview docs  
+    - [/governance/overview.md](governance/overview.md)
+- [/guidance/](guidance) — Decision guidance  
+    - [/guidance/do-i-need-a-rfc.md](guidance/do-i-need-a-rfc.md)
+    - [/guidance/do-i-need-a-standard.md](guidance/do-i-need-a-standard.md)
+    - [/guidance/do-i-need-an-adr.md](guidance/do-i-need-an-adr.md)
+- [/rfc/](rfc) — Requests for Comment  
+    - [/rfc/template.md](rfc/template.md)
+- [/standards/](standards) — Engineering Standards (living documents)  
+    - [/standards/template.md](standards/template.md)
+- [/standards-committee/](standards-committee) — Standards Committee workflows & roles  
+    - [/standards-committee/workflow.md](standards-committee/workflow.md)
 
 This structure will evolve as we migrate content from Confluence and formalize our governance model.
 
