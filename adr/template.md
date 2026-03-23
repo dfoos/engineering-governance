@@ -1,5 +1,9 @@
 # Architecture Decision Record (ADR)
 
+---
+tags: []
+---
+
 **Title:**  
 **ADR ID:**  
 **Date:**  
