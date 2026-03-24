@@ -28,7 +28,7 @@ This repo consolidates everything into a version‑controlled, transparent, and 
 ---
 
 # **How RFCs, ADRs, and Standards Fit Together**
-These three artifacts serve different purposes. Treating them as interchangeable is what created the sprawl we’re cleaning up.
+These three artifacts serve different purposes. Treating them as interchangeable creates adr sprawl.
 
 ## **RFC — Request for Comment**
 RFCs are **proposals**.  
