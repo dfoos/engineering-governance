@@ -11,9 +11,11 @@ This directory contains all documentation related to the Standards Committee. Th
 1. **Browse Workflows**: Refer to the [Standards Committee Workflow](workflow.md) for details on how the committee operates.
 2. **Propose Changes**: Submit an RFC or update an existing standard as needed.
 3. **Track Membership**: See the list of current Standards Committee members below.
+4. **Review SLAs**: Refer to the [SLA Document](../governance/sla.md) for timeframes related to Standards Committee reviews.
 
 ### **Standards Committee Members**
 - **Chair**: [Name]
+- **Facilitator**: [Name]
 - **Members**:
   - [Name 1]
   - [Name 2]
