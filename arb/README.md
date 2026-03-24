@@ -13,7 +13,7 @@ This directory contains all documentation related to the Architecture Review Boa
 3. **Track Membership**: See the list of current ARB members below.
 
 ### **ARB Members**
-- **Chair**: [Name]
+- **Facilitator**: [Name]
 - **Members**:
   - [Name 1]
   - [Name 2]
